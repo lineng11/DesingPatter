@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DesingPatter</string>
+    <string name="single">单例</string>
+</resources>
