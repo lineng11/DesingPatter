@@ -16,7 +16,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected View mContentView;
     protected final String TITLE_KEY = "title_key";
     protected String title;
-    private TextView textView;
+    protected TextView textView;
     private String textStr;
 
     @Override

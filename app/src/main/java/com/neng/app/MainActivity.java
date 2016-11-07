@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.neng.app.activity.BaseActivity;
 import com.neng.app.activity.BuilderActicity;
+import com.neng.app.activity.PrototypeActivity;
 import com.neng.app.activity.SingletonActicity;
 
 import java.util.LinkedHashMap;
@@ -37,6 +38,7 @@ public class MainActivity extends BaseActivity {
         map = new LinkedHashMap<>();
         map.put("单例模式 Singleton", SingletonActicity.class);
         map.put("建造模式 Builder", BuilderActicity.class);
+        map.put("原型模式 Prototype", PrototypeActivity.class);
     }
 
     private void initListView() {
