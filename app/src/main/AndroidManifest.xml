@@ -18,7 +18,8 @@
         <activity android:name=".activity.BaseActivity" />
         <activity android:name=".activity.SingletonActicity" />
         <activity android:name=".activity.BuilderActicity" />
-        <activity android:name=".activity.PrototypeActivity"></activity>
+        <activity android:name=".activity.PrototypeActivity" />
+        <activity android:name=".activity.FactoryActicity" />
     </application>
 
 </manifest>

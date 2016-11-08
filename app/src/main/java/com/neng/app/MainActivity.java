@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.neng.app.activity.BaseActivity;
 import com.neng.app.activity.BuilderActicity;
+import com.neng.app.activity.FactoryActicity;
 import com.neng.app.activity.PrototypeActivity;
 import com.neng.app.activity.SingletonActicity;
 
@@ -39,6 +40,7 @@ public class MainActivity extends BaseActivity {
         map.put("单例模式 Singleton", SingletonActicity.class);
         map.put("建造模式 Builder", BuilderActicity.class);
         map.put("原型模式 Prototype", PrototypeActivity.class);
+        map.put("工厂模式 Factory", FactoryActicity.class);
     }
 
     private void initListView() {
