@@ -20,6 +20,8 @@
         <activity android:name=".activity.BuilderActicity" />
         <activity android:name=".activity.PrototypeActivity" />
         <activity android:name=".activity.FactoryActicity" />
+        <activity android:name=".activity.FactoryAbsActicity" />
+
     </application>
 
 </manifest>
