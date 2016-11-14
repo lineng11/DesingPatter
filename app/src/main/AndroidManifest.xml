@@ -21,6 +21,7 @@
         <activity android:name=".activity.PrototypeActivity" />
         <activity android:name=".activity.FactoryActicity" />
         <activity android:name=".activity.FactoryAbsActicity" />
+        <activity android:name=".activity.StrageryActicity"/>
 
     </application>
 

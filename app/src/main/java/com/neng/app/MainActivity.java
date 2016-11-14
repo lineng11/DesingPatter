@@ -13,6 +13,7 @@ import com.neng.app.activity.FactoryAbsActicity;
 import com.neng.app.activity.FactoryActicity;
 import com.neng.app.activity.PrototypeActivity;
 import com.neng.app.activity.SingletonActicity;
+import com.neng.app.activity.StrageryActicity;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -43,6 +44,7 @@ public class MainActivity extends BaseActivity {
         map.put("原型模式 Prototype", PrototypeActivity.class);
         map.put("工厂模式 Factory", FactoryActicity.class);
         map.put("抽象工厂模式 Factory", FactoryAbsActicity.class);
+        map.put("策略模式 Stragery", StrageryActicity.class);
     }
 
     private void initListView() {
