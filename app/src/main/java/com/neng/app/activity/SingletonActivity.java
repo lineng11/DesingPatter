@@ -6,7 +6,7 @@ import com.neng.app.singleton.Singleton;
  * User: Created by MoMo - Neng. on
  * Data: 2016/11/5.
  */
-public class SingletonActicity extends BaseActivity {
+public class SingletonActivity extends BaseActivity {
 
 
     @Override

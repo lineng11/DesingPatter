@@ -8,7 +8,7 @@ import com.neng.app.stragery.SubWayStragery;
  * User: Created by MoMo - Neng. on
  * Data: 2016/11/14.
  */
-public class StrageryActicity extends BaseActivity {
+public class StrageryActivity extends BaseActivity {
 
 
     @Override

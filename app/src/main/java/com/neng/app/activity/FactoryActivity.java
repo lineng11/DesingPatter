@@ -11,7 +11,7 @@ import com.neng.app.factory.product.Product;
  * User: Created by MoMo - Neng. on
  * Data: 2016/11/9.
  */
-public class FactoryActicity extends BaseActivity {
+public class FactoryActivity extends BaseActivity {
 
 
     @Override

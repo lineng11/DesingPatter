@@ -8,7 +8,7 @@ import com.neng.app.factory_abs.product.Q7Factory;
  * User: Created by MoMo - Neng. on
  * Data: 2016/11/13.
  */
-public class FactoryAbsActicity extends BaseActivity {
+public class FactoryAbsActivity extends BaseActivity {
 
 
     @Override

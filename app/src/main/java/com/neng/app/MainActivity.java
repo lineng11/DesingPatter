@@ -8,12 +8,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.neng.app.activity.BaseActivity;
-import com.neng.app.activity.BuilderActicity;
-import com.neng.app.activity.FactoryAbsActicity;
-import com.neng.app.activity.FactoryActicity;
+import com.neng.app.activity.BuilderActivity;
+import com.neng.app.activity.FactoryAbsActivity;
+import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.PrototypeActivity;
-import com.neng.app.activity.SingletonActicity;
-import com.neng.app.activity.StrageryActicity;
+import com.neng.app.activity.SingletonActivity;
+import com.neng.app.activity.StateActivity;
+import com.neng.app.activity.StrageryActivity;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -39,12 +40,13 @@ public class MainActivity extends BaseActivity {
 
     private void initDate() {
         map = new LinkedHashMap<>();
-        map.put("单例模式 Singleton", SingletonActicity.class);
-        map.put("建造模式 Builder", BuilderActicity.class);
+        map.put("单例模式 Singleton", SingletonActivity.class);
+        map.put("建造模式 Builder", BuilderActivity.class);
         map.put("原型模式 Prototype", PrototypeActivity.class);
-        map.put("工厂模式 Factory", FactoryActicity.class);
-        map.put("抽象工厂模式 Factory", FactoryAbsActicity.class);
-        map.put("策略模式 Stragery", StrageryActicity.class);
+        map.put("工厂模式 Factory", FactoryActivity.class);
+        map.put("抽象工厂模式 Factory", FactoryAbsActivity.class);
+        map.put("策略模式 Stragery", StrageryActivity.class);
+        map.put("状态模式 State", StateActivity.class);
     }
 
     private void initListView() {

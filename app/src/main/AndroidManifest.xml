@@ -16,12 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.BaseActivity" />
-        <activity android:name=".activity.SingletonActicity" />
-        <activity android:name=".activity.BuilderActicity" />
+        <activity android:name=".activity.SingletonActivity" />
+        <activity android:name=".activity.BuilderActivity" />
         <activity android:name=".activity.PrototypeActivity" />
-        <activity android:name=".activity.FactoryActicity" />
-        <activity android:name=".activity.FactoryAbsActicity" />
-        <activity android:name=".activity.StrageryActicity"/>
+        <activity android:name=".activity.FactoryActivity" />
+        <activity android:name=".activity.FactoryAbsActivity" />
+        <activity android:name=".activity.StrageryActivity"/>
+        <activity android:name=".activity.StateActivity"/>
 
     </application>
 

@@ -9,7 +9,7 @@ import com.neng.app.builder.product.ThinkPad;
  * User: Created by MoMo - Neng. on
  * Data: 2016/11/5.
  */
-public class BuilderActicity extends BaseActivity {
+public class BuilderActivity extends BaseActivity {
     @Override
     protected int getContentView() {
         return 0;
