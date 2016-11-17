@@ -26,6 +26,7 @@ public class ChainResponsActivity extends BaseActivity {
 
     @Override
     public void initCreate() {
+        //初始化Leeader
         groupLeader = new GroupLeader();
         directorLeader = new DirectorLeader();
         mansgerLeader = new MansgerLeader();
