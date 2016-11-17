@@ -21,8 +21,9 @@
         <activity android:name=".activity.PrototypeActivity" />
         <activity android:name=".activity.FactoryActivity" />
         <activity android:name=".activity.FactoryAbsActivity" />
-        <activity android:name=".activity.StrageryActivity"/>
-        <activity android:name=".activity.StateActivity"/>
+        <activity android:name=".activity.StrageryActivity" />
+        <activity android:name=".activity.StateActivity" />
+        <activity android:name=".activity.ChainResponsActivity" />
 
     </application>
 

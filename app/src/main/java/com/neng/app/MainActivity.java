@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.neng.app.activity.BaseActivity;
 import com.neng.app.activity.BuilderActivity;
+import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.PrototypeActivity;
@@ -47,6 +48,7 @@ public class MainActivity extends BaseActivity {
         map.put("抽象工厂模式 Factory", FactoryAbsActivity.class);
         map.put("策略模式 Stragery", StrageryActivity.class);
         map.put("状态模式 State", StateActivity.class);
+        map.put("责任链模式 ChainRespons", ChainResponsActivity.class);
     }
 
     private void initListView() {
