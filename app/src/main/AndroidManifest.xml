@@ -24,6 +24,7 @@
         <activity android:name=".activity.StrageryActivity" />
         <activity android:name=".activity.StateActivity" />
         <activity android:name=".activity.ChainResponsActivity" />
+        <activity android:name=".activity.InterpreterActivity"/>
 
     </application>
 

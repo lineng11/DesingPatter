@@ -12,6 +12,7 @@ import com.neng.app.activity.BuilderActivity;
 import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
+import com.neng.app.activity.InterpreterActivity;
 import com.neng.app.activity.PrototypeActivity;
 import com.neng.app.activity.SingletonActivity;
 import com.neng.app.activity.StateActivity;
@@ -49,6 +50,7 @@ public class MainActivity extends BaseActivity {
         map.put("策略模式 Stragery", StrageryActivity.class);
         map.put("状态模式 State", StateActivity.class);
         map.put("责任链模式 ChainRespons", ChainResponsActivity.class);
+        map.put("解释器模式 Interpreter", InterpreterActivity.class);
     }
 
     private void initListView() {
