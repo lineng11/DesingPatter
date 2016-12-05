@@ -6,6 +6,12 @@ package com.neng.app.interpreter;
  */
 public interface Expression {
 
+    /**
+     * 解释器
+     *
+     * @param entity 上下文 实体Entity 数据
+     * @return
+     */
     int interpret(Entity entity);
 
 }

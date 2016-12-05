@@ -30,6 +30,7 @@ public class InterpreterActivity extends BaseActivity {
         Entity entity = new Entity(2016, 12);
         //+
         int resultPlus = new Plus().interpret(entity);
+
         Entity entity2 = new Entity(resultPlus, 5);
         //-
         int result = new Minus().interpret(entity2);
