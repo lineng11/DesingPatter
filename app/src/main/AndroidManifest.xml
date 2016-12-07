@@ -26,6 +26,7 @@
         <activity android:name=".activity.ChainResponsActivity" />
         <activity android:name=".activity.InterpreterActivity" />
         <activity android:name=".activity.CommandActivity" />
+        <activity android:name=".activity.ObserverActivity"/>
 
     </application>
 
