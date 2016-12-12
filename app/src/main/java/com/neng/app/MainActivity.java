@@ -14,6 +14,7 @@ import com.neng.app.activity.CommandActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.InterpreterActivity;
+import com.neng.app.activity.MementoActivity;
 import com.neng.app.activity.ObserverActivity;
 import com.neng.app.activity.PrototypeActivity;
 import com.neng.app.activity.SingletonActivity;
@@ -55,6 +56,7 @@ public class MainActivity extends BaseActivity {
         map.put("解释器模式 Interpreter", InterpreterActivity.class);
         map.put("命令模式 Command", CommandActivity.class);
         map.put("观察模式 Observer", ObserverActivity.class);
+        map.put("备忘录模式 Memento", MementoActivity.class);
     }
 
     private void initListView() {
