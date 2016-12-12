@@ -28,6 +28,7 @@
         <activity android:name=".activity.CommandActivity" />
         <activity android:name=".activity.ObserverActivity"/>
         <activity android:name=".activity.MementoActivity"/>
+        <activity android:name=".activity.IteratorActivity"/>
 
     </application>
 
