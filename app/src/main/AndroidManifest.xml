@@ -29,6 +29,7 @@
         <activity android:name=".activity.ObserverActivity"/>
         <activity android:name=".activity.MementoActivity"/>
         <activity android:name=".activity.IteratorActivity"/>
+        <activity android:name=".activity.TemplateActivity"/>
 
     </application>
 
