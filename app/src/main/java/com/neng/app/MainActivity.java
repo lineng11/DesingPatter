@@ -22,6 +22,7 @@ import com.neng.app.activity.SingletonActivity;
 import com.neng.app.activity.StateActivity;
 import com.neng.app.activity.StrageryActivity;
 import com.neng.app.activity.TemplateActivity;
+import com.neng.app.activity.VisitorActivity;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -61,6 +62,7 @@ public class MainActivity extends BaseActivity {
         map.put("备忘录模式 Memento", MementoActivity.class);
         map.put("迭代器模式 Iterator", IteratorActivity.class);
         map.put("模版模式 Template", TemplateActivity.class);
+        map.put("访问者模式 Visitor", VisitorActivity.class);
     }
 
     private void initListView() {

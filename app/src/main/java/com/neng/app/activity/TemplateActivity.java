@@ -46,11 +46,13 @@ public class TemplateActivity extends BaseActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.starBut1:
+                //程序员 计算机
                 comp = new CodeComouter();
                 comp.starUp();
                 break;
 
             case R.id.starBut2:
+                //军机 计算机
                 comp = new MilltaryComouter();
                 comp.starUp();
                 break;
