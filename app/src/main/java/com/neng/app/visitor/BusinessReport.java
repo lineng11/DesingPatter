@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * 员工表表
+ * 员工数据表
  * User: Created by MoMo - Neng. on
  * Data: 2016/12/14.
  */

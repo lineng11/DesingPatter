@@ -15,6 +15,7 @@ import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.InterpreterActivity;
 import com.neng.app.activity.IteratorActivity;
+import com.neng.app.activity.MediatorActivity;
 import com.neng.app.activity.MementoActivity;
 import com.neng.app.activity.ObserverActivity;
 import com.neng.app.activity.PrototypeActivity;
@@ -63,6 +64,7 @@ public class MainActivity extends BaseActivity {
         map.put("迭代器模式 Iterator", IteratorActivity.class);
         map.put("模版模式 Template", TemplateActivity.class);
         map.put("访问者模式 Visitor", VisitorActivity.class);
+        map.put("中介模式 Mediator", MediatorActivity.class);
     }
 
     private void initListView() {
