@@ -19,6 +19,7 @@ import com.neng.app.activity.MediatorActivity;
 import com.neng.app.activity.MementoActivity;
 import com.neng.app.activity.ObserverActivity;
 import com.neng.app.activity.PrototypeActivity;
+import com.neng.app.activity.ProxyActivity;
 import com.neng.app.activity.SingletonActivity;
 import com.neng.app.activity.StateActivity;
 import com.neng.app.activity.StrageryActivity;
@@ -65,6 +66,7 @@ public class MainActivity extends BaseActivity {
         map.put("模版模式 Template", TemplateActivity.class);
         map.put("访问者模式 Visitor", VisitorActivity.class);
         map.put("中介模式 Mediator", MediatorActivity.class);
+        map.put("代理模式 Proxy", ProxyActivity.class);
     }
 
     private void initListView() {
