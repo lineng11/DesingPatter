@@ -1,11 +1,16 @@
 package com.neng.app.activity;
 
+import android.util.Log;
 import android.view.View;
 
+import com.neng.app.proxy.dome.DynamicProxy;
+import com.neng.app.proxy.dome.ILawsuit;
 import com.neng.app.proxy.dome.Lawyer;
 import com.neng.app.proxy.dome.XiaoMin;
 import com.neng.app.proxy.stencil.ProxySubject;
 import com.neng.app.proxy.stencil.RealSubject;
+
+import java.lang.reflect.Proxy;
 
 /**
  * 代理模式
@@ -35,6 +40,18 @@ public class ProxyActivity extends BaseActivity {
         lawyer.burden();
         lawyer.defend();
         lawyer.finish();
+
+        //------------------------ 动态代理
+        Log.d(this.getClass().getSimpleName(), "=========================动态代理 client: =================================");
+        DynamicProxy dynamicProxy = new DynamicProxy(xiaoMin);
+        ClassLoader mClassLoader = xiaoMin.getClass().getClassLoader();
+        //动态构造一个代理律师
+        ILawsuit mILawsuit = (ILawsuit) Proxy.newProxyInstance(mClassLoader, new Class[]{ILawsuit.class}, dynamicProxy);
+        //律师代理诉讼
+        mILawsuit.submit();
+        mILawsuit.burden();
+        mILawsuit.defend();
+        mILawsuit.finish();
     }
 
     /**
