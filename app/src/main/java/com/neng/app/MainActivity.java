@@ -11,6 +11,7 @@ import com.neng.app.activity.BaseActivity;
 import com.neng.app.activity.BuilderActivity;
 import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.CommandActivity;
+import com.neng.app.activity.CompositeActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.InterpreterActivity;
@@ -67,6 +68,7 @@ public class MainActivity extends BaseActivity {
         map.put("访问者模式 Visitor", VisitorActivity.class);
         map.put("中介模式 Mediator", MediatorActivity.class);
         map.put("代理模式 Proxy", ProxyActivity.class);
+        map.put("组合模式 Composite", CompositeActivity.class);
     }
 
     private void initListView() {
