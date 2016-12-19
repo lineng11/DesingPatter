@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.neng.app.activity.AdapterActivity;
 import com.neng.app.activity.BaseActivity;
 import com.neng.app.activity.BuilderActivity;
 import com.neng.app.activity.ChainResponsActivity;
@@ -69,6 +70,7 @@ public class MainActivity extends BaseActivity {
         map.put("中介模式 Mediator", MediatorActivity.class);
         map.put("代理模式 Proxy", ProxyActivity.class);
         map.put("组合模式 Composite", CompositeActivity.class);
+        map.put("适配器模式 Adapter", AdapterActivity.class);
     }
 
     private void initListView() {
