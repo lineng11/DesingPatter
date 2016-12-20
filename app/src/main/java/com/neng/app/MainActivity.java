@@ -13,6 +13,7 @@ import com.neng.app.activity.BuilderActivity;
 import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.CommandActivity;
 import com.neng.app.activity.CompositeActivity;
+import com.neng.app.activity.DecoratorActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.InterpreterActivity;
@@ -71,6 +72,7 @@ public class MainActivity extends BaseActivity {
         map.put("代理模式 Proxy", ProxyActivity.class);
         map.put("组合模式 Composite", CompositeActivity.class);
         map.put("适配器模式 Adapter", AdapterActivity.class);
+        map.put("装饰模式 Decorator", DecoratorActivity.class);
     }
 
     private void initListView() {

@@ -1,6 +1,7 @@
 package com.neng.app.adapter;
 
 /**
+ * 适配器
  * User: Created by MoMo - Neng. on
  * Data: 2016/12/19.
  */
