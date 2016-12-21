@@ -16,6 +16,7 @@ import com.neng.app.activity.CompositeActivity;
 import com.neng.app.activity.DecoratorActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
+import com.neng.app.activity.FlyweightActivity;
 import com.neng.app.activity.InterpreterActivity;
 import com.neng.app.activity.IteratorActivity;
 import com.neng.app.activity.MediatorActivity;
@@ -73,6 +74,7 @@ public class MainActivity extends BaseActivity {
         map.put("组合模式 Composite", CompositeActivity.class);
         map.put("适配器模式 Adapter", AdapterActivity.class);
         map.put("装饰模式 Decorator", DecoratorActivity.class);
+        map.put("亨元模式 Flyweight", FlyweightActivity.class);
     }
 
     private void initListView() {
