@@ -14,6 +14,7 @@ import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.CommandActivity;
 import com.neng.app.activity.CompositeActivity;
 import com.neng.app.activity.DecoratorActivity;
+import com.neng.app.activity.FacadeActivity;
 import com.neng.app.activity.FactoryAbsActivity;
 import com.neng.app.activity.FactoryActivity;
 import com.neng.app.activity.FlyweightActivity;
@@ -75,6 +76,7 @@ public class MainActivity extends BaseActivity {
         map.put("适配器模式 Adapter", AdapterActivity.class);
         map.put("装饰模式 Decorator", DecoratorActivity.class);
         map.put("亨元模式 Flyweight", FlyweightActivity.class);
+        map.put("外观模式 Facade", FacadeActivity.class);
     }
 
     private void initListView() {
