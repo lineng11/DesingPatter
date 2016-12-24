@@ -1,6 +1,7 @@
 package com.neng.app.bridge;
 
 /**
+ * 咖啡
  * User: Created by MoMo - Neng. on
  * Data: 2016/12/24.
  */
@@ -13,7 +14,7 @@ public abstract class Coffee {
     }
 
     /**
-     * 咖啡具体是什么样子，由子类决定
+     * 咖啡添加剂
      */
     public abstract void makeCoffee();
 }
