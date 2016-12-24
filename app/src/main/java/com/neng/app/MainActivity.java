@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.neng.app.activity.AdapterActivity;
 import com.neng.app.activity.BaseActivity;
+import com.neng.app.activity.BridgeActivity;
 import com.neng.app.activity.BuilderActivity;
 import com.neng.app.activity.ChainResponsActivity;
 import com.neng.app.activity.CommandActivity;
@@ -77,6 +78,7 @@ public class MainActivity extends BaseActivity {
         map.put("装饰模式 Decorator", DecoratorActivity.class);
         map.put("亨元模式 Flyweight", FlyweightActivity.class);
         map.put("外观模式 Facade", FacadeActivity.class);
+        map.put("桥接模式 Bridge", BridgeActivity.class);
     }
 
     private void initListView() {

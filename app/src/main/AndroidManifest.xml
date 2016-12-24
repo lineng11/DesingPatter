@@ -38,6 +38,7 @@
         <activity android:name=".activity.DecoratorActivity"/>
         <activity android:name=".activity.FlyweightActivity"/>
         <activity android:name=".activity.FacadeActivity"/>
+        <activity android:name=".activity.BridgeActivity"/>
 
     </application>
 
